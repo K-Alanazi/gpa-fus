@@ -1,0 +1,121 @@
+
+
+
+
+.slider-wrapper {
+  position: relative;
+  width: 75px;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+input[type=checkbox]:checked + label .slider-options {
+  left: -45px; /* width of the yes/no width plus the padding */
+}
+
+.slider-options {
+  position: relative;
+  left: 0;
+  z-index: -1;
+  white-space: nowrap;
+  
+	@include transition(left, .2s);
+}
+
+.slider-option-selector {
+  display: inline-block;
+  width: 25px;
+  background: #fff;
+}
+
+.slider-option-no, .slider-option-yes {
+  display: inline-block;
+  width: 35px;
+  padding: 5px;
+  text-align: center;
+}
+
+.slider-option-yes {
+  color: #fff;
+  background: #0a0;
+}
+
+.slider-option-no {
+  color: red;
+  background: #ddd;
+}
+
+// get the checkbox outta the way
+#checkbox {
+ /* position: absolute;
+  left: -9999px;
+  top: -9999px;
+  visibility: hidden;*/
+}
+
+
+/*************************************/
+
+.slider-wrapper {
+  position: relative;
+  width: 75px;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+input[type=checkbox]:checked + label .slider-options {
+  left: -45px; /* width of the yes/no width plus the padding */
+}
+
+input[type=checkbox]:checked + label .slider-options1 {
+  left: -45px; /* width of the yes/no width plus the padding */
+}
+
+.slider-options {
+  position: relative;
+  left: 0;
+  z-index: -1;
+  white-space: nowrap;
+  
+	@include transition(left, .2s);
+}
+  
+	@include transition(left, .2s);
+}
+
+.slider-option-selector {
+  display: inline-block;
+  width: 25px;
+  background: #fff;
+}
+
+.slider-option-no, .slider-option-yes {
+  display: inline-block;
+  width: 35px;
+  padding: 5px;
+  text-align: center;
+}
+
+.slider-option-yes {
+  color: #fff;
+  background: #0a0;
+}
+
+.slider-option-no {
+  color: red;
+  background: #ddd;
+}
+
+// get the checkbox outta the way
+#checkbox {
+ /* position: absolute;
+  left: -9999px;
+  top: -9999px;
+  visibility: hidden;*/
+}
+
+
